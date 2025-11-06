@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Participant Registration Form</title>
+</head>
+<body>
+  <h2>Participant Registration</h2>
+  <form action="/submit" method="post">
+    <label for="participant_name">Participant Name:</label><br>
+    <input type="text" id="participant_name" name="participant_name" required><br><br>
+
+    <label for="contact_no">Contact Number:</label><br>
+    <input type="tel" id="contact_no" name="contact_no" pattern="[0-9]{10}" required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
